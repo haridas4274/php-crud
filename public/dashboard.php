@@ -17,7 +17,7 @@ $users = $user->all();
 
 <a href="logout.php">Logout</a>
 
-<table border="1">
+<table class="table">
 <tr>
     <th>ID</th>
     <th>Name</th>
@@ -47,3 +47,8 @@ $users = $user->all();
 
 </table>
 <?php require './layout/footer.php';?>
+<script>
+    $(document).ready(function(){
+        // alert('jquery loaded');
+    });
+</script>
